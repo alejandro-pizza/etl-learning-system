@@ -19,9 +19,9 @@ Save as PNG files in `assets/` folder.
 
 **Layout:** Horizontal flow, three main stages
 ```
-┌─────────────────────────────────────────────────────────────────┐
-│                    ETL LEARNING SYSTEM                           │
-└─────────────────────────────────────────────────────────────────┘
+┌───────────────────────────────────────────────────────────┐
+│                    ETL LEARNING SYSTEM                    │
+└───────────────────────────────────────────────────────────┘
 
 ┌──────────────┐      ┌──────────────┐      ┌──────────────┐
 │   EXTRACT    │  →   │  TRANSFORM   │  →   │     LOAD     │
@@ -36,7 +36,7 @@ MONDAY-FRIDAY          SUNDAY/MONDAY         ONGOING
 │              │      │              │      │              │
 │  📓 A5       │      │  🔍 Scan     │      │  📚 B5       │
 │  Notebook    │      │  📋 Decide   │      │  Cornell     │
-│              │      │  ✏️  Refine   │      │              │
+│              │      │  ✏️  Refine  │      │              │
 │  • Chrono    │      │  ✓ Mark      │      │  💻 Jupyter  │
 │  • Symbols   │      │  📖 Update   │      │  Notebooks   │
 │  • Headers   │      │  💾 Commit   │      │              │
@@ -92,15 +92,15 @@ MONDAY-FRIDAY          SUNDAY/MONDAY         ONGOING
    YES                   NO
     │                     │
     ↓                     ↓
-┌─────────┐         ┌──────────┐
-│ JUPYTER │         │ CORNELL  │
-│         │         │          │
-│ 💻      │         │ 📚       │
-│         │         │          │
-│ • Code  │         │ • Theory │
-│ • SQL   │         │ • Math   │
-│ • Demos │         │ • Concepts│
-└─────────┘         └──────────┘
+┌──────────┐        ┌──────────┐
+│ JUPYTER  │        │ CORNELL  │
+│          │        │          │
+│ 💻       │        │ 📚       │
+│          │        │          │
+│ • Code   │        │• Theory  │
+│ • SQL    │        │• Math    │
+│ • Demos  │        │• Concepts│
+└──────────┘        └──────────┘
 
 Examples:            Examples:
 - Docker commands    • Docker architecture
@@ -143,30 +143,30 @@ Examples:            Examples:
 │ 2. DECIDE FORMAT                        [~30 sec ea] │
 ├──────────────────────────────────────────────────────┤
 │ For each topic:                                      │
-│ Can I code it? → Jupyter                            │
-│ Concepts only? → Cornell                            │
+│ Can I code it? → Jupyter                             │
+│ Concepts only? → Cornell                             │
 └──────────────────────────────────────────────────────┘
                         ↓
 ┌──────────────────────────────────────────────────────┐
 │ 3. PROCESS NOTES                        [50-70 min]  │
 ├──────────────────────────────────────────────────────┤
 │                                                      │
-│  ┌─────────────────┐    ┌──────────────────┐       │
-│  │ JUPYTER PATH    │    │ CORNELL PATH     │       │
-│  ├─────────────────┤    ├──────────────────┤       │
-│  │ 1. Copy template│    │ 1. Draw sections │       │
-│  │ 2. Fill header  │    │ 2. Fill notes    │       │
-│  │ 3. Add examples │    │ 3. Add cues      │       │
-│  │ 4. Test code    │    │ 4. Write summary │       │
-│  │ 5. Write summary│    │                  │       │
-│  └─────────────────┘    └──────────────────┘       │
+│    ┌─────────────────┐    ┌──────────────────┐       │
+│    │ JUPYTER PATH    │    │ CORNELL PATH     │       │
+│    ├─────────────────┤    ├──────────────────┤       │
+│    │ 1. Copy template│    │ 1. Draw sections │       │
+│    │ 2. Fill header  │    │ 2. Fill notes    │       │
+│    │ 3. Add examples │    │ 3. Add cues      │       │
+│    │ 4. Test code    │    │ 4. Write summary │       │
+│    │ 5. Write summary│    │                  │       │
+│    └─────────────────┘    └──────────────────┘       │
 │                                                      │
 └──────────────────────────────────────────────────────┘
                         ↓
 ┌──────────────────────────────────────────────────────┐
 │ 4. TASK SWEEP                           [5 min]      │
 ├──────────────────────────────────────────────────────┤
-│ • Scan for □ (tasks) and ! (deadlines)              │
+│ • Scan for □ (tasks) and ! (deadlines)               │
 │ • Add to task system                                 │
 └──────────────────────────────────────────────────────┘
                         ↓
@@ -312,7 +312,7 @@ HEADER FORMAT:
 │ [DATE] | [TYPE] | [SOURCE]                         │
 │                                                    │
 │ Example:                                           │
-│ 2024-12-14 | LECTURE | MLOps - Docker             │
+│ 2024-12-14 | LECTURE | MLOps - Docker              │
 └────────────────────────────────────────────────────┘
 ```
 
@@ -347,7 +347,7 @@ HEADER FORMAT:
 │              │  • Diagrams and visuals                 │
 │              │  • Important facts and concepts         │
 │              │                                         │
-│  [Add these  │  [Fill this section FIRST]             │
+│  [Add these  │  [Fill this section FIRST]              │
 │   SECOND]    │  [During processing session]            │
 │              │                                         │
 │              │                                         │
@@ -391,12 +391,12 @@ REVIEW:
 
 **Layout:** Icon-based feature grid
 ```
-┌────────────────────────────────────────────────────────────┐
-│         WHY THIS SYSTEM WORKS FOR ADHD BRAINS             │
-└────────────────────────────────────────────────────────────┘
+┌──────────────────────────────────────────────────────────────┐
+│            WHY THIS SYSTEM WORKS FOR ADHD BRAINS             │
+└──────────────────────────────────────────────────────────────┘
 
 ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
-│  📓 ONE NOTEBOOK │  │  ⏱️ MINIMAL CHOICES│  │  ✅ VISUAL DONE  │
+│  📓 ONE NOTEBOOK │  │  ⏱️ MIN.  CHOICES│  │  ✅ VISUAL DONE  │
 ├──────────────────┤  ├──────────────────┤  ├──────────────────┤
 │ No decisions     │  │ Same symbols     │  │ Cross out dates  │
 │ about "which     │  │ Same header      │  │ See progress     │
@@ -405,7 +405,7 @@ REVIEW:
 └──────────────────┘  └──────────────────┘  └──────────────────┘
 
 ┌──────────────────┐  ┌──────────────────┐  ┌──────────────────┐
-│  🔄 RITUAL       │  │  ⏲️ TIME BOXING   │  │  📋 CHECKLIST    │
+│  🔄 RITUAL       │  │  ⏲️ TIME BOXING  │  │  📋 CHECKLIST    │
 ├──────────────────┤  ├──────────────────┤  ├──────────────────┤
 │ Same day/time    │  │ 60-90 min max    │  │ External         │
 │ Same location    │  │ Not "until done" │  │ structure        │
