@@ -24,9 +24,9 @@ Complete guide for handwritten note-taking in the ETL system.
 
 ## The Two Notebooks
 ```
-A5 Raw Capture        →    B5 Cornell Refined
+Raw Capture          →     Cornell Refined
 (During Week)              (Sunday/Monday)
-────────────────           ─────────────────
+────────────────           ─────────────────────
 Messy, fast                Clean, organized
 Chronological              Topical
 No decisions               Intentional structure
@@ -35,7 +35,7 @@ Portable                   Reference quality
 
 ---
 
-## A5 Raw Capture Notebook
+## Raw Capture Notebook
 
 ### Purpose
 This is your **thinking space** during lectures, readings, and videos. The goal is zero-friction capture—get thoughts out of your head and onto paper without interruption.
@@ -43,7 +43,7 @@ This is your **thinking space** during lectures, readings, and videos. The goal 
 ### Setup
 
 **Notebook characteristics:**
-- **Size:** A5 (5.8" × 8.3") - fits in bag, not too small
+- **Size:** A5 (Recommended) - fits in bag, not too small
 - **Pages:** 80-100 sheets, ruled or dotted
 - **Binding:** Spiral or sewn (lies flat)
 - **Cover:** Durable (this notebook gets thrown around)
@@ -52,8 +52,8 @@ This is your **thinking space** during lectures, readings, and videos. The goal 
 ```
 ═══════════════════════════════════════
 SYMBOLS:
-- Note          □ Task          ? Question
-* Important     > Code          ! Deadline
+- Note          □ Task       ? Question
+* Important     > Code       ! Deadline
 
 HEADER FORMAT:
 [DATE] | [TYPE] | [SOURCE]
@@ -67,7 +67,7 @@ After processing: Cross out date
 #### 1. Start Every Session with a Header
 ```
 2024-12-14 | LECTURE | MLOps - Week 3: CI/CD
-───────────────────────────────────────────────
+────────────────────────────────────────────
 ```
 
 **Header components:**
@@ -82,7 +82,7 @@ After processing: Cross out date
 Write naturally, marking content types as you go:
 ```
 2024-12-14 | LECTURE | MLOps - CI/CD Pipelines
-───────────────────────────────────────────────
+─────────────────────────────────────────────────
 - CI/CD automates testing and deployment
 - Three stages: build, test, deploy
 □ Set up GitHub Actions for my project
@@ -190,7 +190,7 @@ This feels chaotic, but it **reduces decision paralysis**. You never think "wher
 #### Lecture Notes
 ```
 2024-12-15 | LECTURE | Statistics - Hypothesis Testing
-──────────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────────
 - Null hypothesis (H0): no effect/no difference
 - Alternative hypothesis (H1): there is an effect
 * Alpha level typically 0.05
@@ -208,7 +208,7 @@ This feels chaotic, but it **reduces decision paralysis**. You never think "wher
 #### Reading Notes
 ```
 2024-12-15 | READING | Designing Data-Intensive Apps Ch.2
-──────────────────────────────────────────────────────────
+──────────────────────────────────────────────────────────────────────────────
 - Data models: how we structure and think about data
 - Relational model (SQL): data in tables with relationships
 - Document model (NoSQL): JSON-like nested structures
@@ -225,7 +225,7 @@ This feels chaotic, but it **reduces decision paralysis**. You never think "wher
 #### Quick Task Dump
 ```
 2024-12-16 | TASK | Weekly Planning
-─────────────────────────────────────
+─────────────────────────────────────────
 □ Finish MLOps assignment (due Fri)
 □ Read MDA Ch.5 before Saturday class
 □ Schedule office hours with Prof. Chen
@@ -239,7 +239,7 @@ This feels chaotic, but it **reduces decision paralysis**. You never think "wher
 #### Video Notes
 ```
 2024-12-16 | VIDEO | Docker Tutorial - Networking
-──────────────────────────────────────────────────
+────────────────────────────────────────────────────────────────
 - Docker networks allow containers to communicate
 - Default bridge network: containers on same host
 - User-defined bridge: better isolation, automatic DNS
@@ -261,7 +261,7 @@ When you finish processing a page:
 2. Visual indicator you're done with this page
 ```
 2024-12-14 | LECTURE | MLOps - CI/CD  ← Cross this out
-───────────────────────────────────────────────
+──────────────────────────────────────────────────────
 ```
 
 **Benefits:**
@@ -272,7 +272,7 @@ When you finish processing a page:
 
 ---
 
-## B5 Cornell Refined Notebook
+## Cornell Refined Notebook
 
 ### Purpose
 This is your **reference material**. Clean, organized notes for concepts and theory that you'll review for exams and future reference.
@@ -298,7 +298,7 @@ This is your **reference material**. Clean, organized notes for concepts and the
 ### Setup
 
 **Notebook characteristics:**
-- **Size:** B5 (6.9" × 9.8") - more space than A5
+- **Size:** B5 (recommended) - more space than A5
 - **Pages:** 80-100 sheets, ruled preferred
 - **Binding:** Sewn (lies completely flat)
 - **Quality:** Nicer than raw notebook (this is permanent reference)
@@ -362,8 +362,8 @@ Summary (bottom 2"):
 
 #### Step 1: Title and Date
 ```
-MLOps - CI/CD Pipelines                 Dec 9-14, 2024
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+MLOps - CI/CD Pipelines                   Dec 9-14, 2024
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 Top of page, clear title describing the topic.
@@ -380,7 +380,7 @@ Top of page, clear title describing the topic.
 
 **Example:**
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
              |  CI/CD OVERVIEW
              |  • Continuous Integration: automated testing
              |    of code changes
@@ -419,7 +419,7 @@ Top of page, clear title describing the topic.
              |  • Reduced manual errors
              |  • More frequent, smaller releases
              |  • Easy rollback if issues occur
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 **Tips for notes section:**
@@ -439,7 +439,7 @@ Top of page, clear title describing the topic.
 
 **Example:**
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 What is CI/CD?|  CI/CD OVERVIEW
              |  • Continuous Integration: automated testing
              |
@@ -456,7 +456,7 @@ vs Canary?   |  • Blue-Green: two identical environments
              |
 Why CI/CD?   |  KEY BENEFITS
              |  • Faster feedback on code quality
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 **Cues purpose:**
@@ -468,7 +468,7 @@ Why CI/CD?   |  KEY BENEFITS
 
 **Last step - forces synthesis:**
 ```
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 Summary:
 
 CI/CD automates the software delivery pipeline through
@@ -476,7 +476,7 @@ three stages: build (compile), test (verify), and deploy
 (release). This enables faster, more reliable releases
 with reduced manual errors. Different deployment strategies
 (blue-green, canary, rolling) balance risk and speed.
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ```
 
 **Summary guidelines:**
@@ -657,9 +657,9 @@ This is **active recall** - proven to be more effective than re-reading.
 
 ## Next Steps
 
-1. Buy your A5 and B5 notebooks
-2. Write symbol reference in A5 inside cover
-3. Draw Cornell template in B5 inside cover
+1. Buy your capture and refined notebooks
+2. Write symbol reference in capture notbook's inside cover
+3. Draw Cornell template in refined notbook's inside cover
 4. Start capturing! (Don't wait for perfect setup)
 5. Process first week's notes to test the system
 6. Adjust anything that feels clunky
