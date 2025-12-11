@@ -62,7 +62,7 @@ Working Directory  →  Staging Area  →  Local Repository  →  Remote (GitHub
 git status
 
 # 2. Add files to staging
-git add .                          # Add everything
+git add .                         # Add everything
 git add courses/mlops/            # Add specific folder
 git add *.ipynb                   # Add all notebooks
 
@@ -81,11 +81,11 @@ git push origin main
 git status
 
 # See changes in files
-git diff                          # All changes
+git diff                         # All changes
 git diff filename.ipynb          # Specific file
 
 # See commit history
-git log                           # Full history
+git log                          # Full history
 git log --oneline                # Compact view
 git log --oneline -10            # Last 10 commits
 ```
@@ -148,7 +148,7 @@ Fix: Correct formula in statistics Cornell notes
 
 **Bad examples:**
 ```
-Update files                      # Too vague
+Update files                     # Too vague
 Week 3                           # No information about content
 asdf                             # Not descriptive
 Added stuff                      # Not professional
@@ -685,11 +685,11 @@ I use an [ETL-based learning system](link) for organizing coursework
 ### Most Common Commands
 ```bash
 # Daily use
-git status                    # What changed?
-git add .                     # Stage everything
-git commit -m "message"       # Commit changes
-git push origin main          # Send to GitHub
-git pull origin main          # Get from GitHub
+git status                   # What changed?
+git add .                    # Stage everything
+git commit -m "message"      # Commit changes
+git push origin main         # Send to GitHub
+git pull origin main         # Get from GitHub
 
 # Checking history
 git log --oneline            # View commits
@@ -703,6 +703,12 @@ git checkout -- filename     # Discard changes to file
 git branch                   # List branches
 git checkout -b new-branch   # Create and switch
 git merge branch-name        # Merge branch
+
+# Share & Update
+git fetch [alias]            # Fetch down all the branches that Git remote
+git merge [alias]/[branch]   # Merge a remote granch into your current branch to bring up to date
+git push [alias][branch]     # Transmot local branch commits to the remote repo branch
+git pull                     # Fetch and merge any commits from the tracking remote branch (aka if you do online edits)
 ```
 
 ### Emergency Commands
@@ -780,6 +786,7 @@ git push origin spring-2025
 **Documentation:**
 - Git Official Docs: https://git-scm.com/doc
 - GitHub Docs: https://docs.github.com/
+- GitHub Education: https://education.github.com/
 
 **Books:**
 - Pro Git (free): https://git-scm.com/book/en/v2
