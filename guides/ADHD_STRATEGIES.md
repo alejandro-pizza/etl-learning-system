@@ -62,7 +62,7 @@ How the ETL Learning System specifically addresses ADHD challenges and executive
 **Externalize Everything:**
 ```
 Internal Working Memory          External Storage
-─────────────────────           ────────────────
+───────────────────────          ───────────────────────────
 "What was that symbol?"    →     Written on notebook cover
 "What's the next step?"    →     Checklist in notebook
 "Where does this go?"      →     Always: next available line
@@ -145,8 +145,8 @@ Empty B5 notebook       →    "Fill this up" (challenge/goal)
 "Every Sunday at 2pm" = Processing Time
 
 Calendar reminder      →    External trigger
-Same time/place       →    Context cues behavior
-Ritual develops       →    Becomes automatic
+Same time/place        →    Context cues behavior
+Ritual develops        →    Becomes automatic
 ```
 
 ---
@@ -166,17 +166,17 @@ Ritual develops       →    Becomes automatic
 Writing by hand = Active engagement
 
 Motor movement       →    Keeps body busy
-Can't drift off     →    Have to write
-Kinesthetic input   →    Multiple senses engaged
-Slower than typing  →    Forces processing
+Can't drift off      →    Have to write
+Kinesthetic input    →    Multiple senses engaged
+Slower than typing   →    Forces processing
 ```
 
 **Time-Boxing:**
 ```
 Processing Session = 90 minutes MAX
 
-Not "until done"        →    Defined endpoint
-Timer creates urgency   →    Focus boost
+Not "until done"       →    Defined endpoint
+Timer creates urgency  →    Focus boost
 Can see end            →    Reduces overwhelm
 Okay to stop           →    Prevents burnout
 ```
@@ -361,10 +361,10 @@ Instant Dopamine Hits:
 
 ✓ Filled page              →    Visible progress
 ✓ Crossed-out date         →    Task completion
-✓ Git commit              →    "Saved!" confirmation
+✓ Git commit               →    "Saved!" confirmation
 ✓ Green square on GitHub   →    Contribution logged
-✓ Checked box             →    Item complete
-✓ Filled notebook         →    Milestone achieved
+✓ Checked box              →    Item complete
+✓ Filled notebook          →    Milestone achieved
 ```
 
 **Progress Tracking:**
@@ -384,7 +384,7 @@ Digital Progress:
 ```
 Challenge yourself:
 
-□ Process every week for a month     →    "Consistency streak"
+□ Process every week for a month    →    "Consistency streak"
 □ Fill entire notebook              →    "Notebook warrior"
 □ 100 commits this semester         →    "Century club"
 □ Backfill all previous courses     →    "Completionist"
@@ -408,7 +408,7 @@ Novelty = dopamine for ADHD brains
 ```
 Share your work:
 
-- Public GitHub repo         →    Others can see
+- Public GitHub repo        →    Others can see
 - Study group check-ins     →    Peer accountability
 - Twitter/LinkedIn posts    →    Public commitment
 - Study buddy system        →    Mutual support
@@ -461,8 +461,8 @@ Flexibility prevents system abandonment.
 ```
 Good enough IS good enough:
 
-Cornell notes messy?         →    Still better than nothing
-Jupyter incomplete?          →    Partial documentation valuable
+Cornell notes messy?        →    Still better than nothing
+Jupyter incomplete?         →    Partial documentation valuable
 Missed week?                →    Resume, don't restart
 Typos in commits?           →    Doesn't matter
 
@@ -473,7 +473,7 @@ Done beats perfect.
 ```
 ADHD Challenges Are Expected:
 
-✓ Decision paralysis        →    System minimizes decisions
+✓ Decision paralysis       →    System minimizes decisions
 ✓ Forgetting steps         →    Checklist provides structure
 ✓ Time blindness           →    Timer and estimates
 ✓ Lost focus               →    Time-boxing and breaks
