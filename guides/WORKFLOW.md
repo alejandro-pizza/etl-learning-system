@@ -20,7 +20,7 @@ ONGOING: Load (Reference & Review)
 ### Setup
 
 **Physical:**
-- One A5 notebook (portable, always with you)
+- One capture notebook (portable, always with you)
 - Write symbols reference on inside cover
 
 **Inside Front Cover:**
@@ -161,7 +161,7 @@ See [Digital Notes Guide](DIGITAL_NOTES.md) for details.
 
 ### Step 3B: Process to Cornell (15-20 min per topic)
 
-**In B5 refined notebook:**
+**In larger format refined notebook:**
 
 **Structure:**
 ```
@@ -204,12 +204,12 @@ See [Physical Notes Guide](PHYSICAL_NOTES.md) for details.
 
 ### Step 5: Mark Processed (2 minutes)
 
-**In raw A5 notebook:**
+**In raw capture notebook:**
 
 Go to each processed page and draw a line through the date:
 ```
 2024-12-14 | LECTURE | MLOps - Docker  ← Cross out this line
-───────────────────────────────────────────────
+─────────────────────────────────────
 ```
 
 Visual indicator that you're done with this page.
@@ -319,10 +319,10 @@ See [Git Workflow Guide](GIT_WORKFLOW.md) for details.
 MONDAY-FRIDAY (Extract)
 ┌─────────────────────────────────────┐
 │   RAW CAPTURE (A5 Notebook)         │
-│   • Lectures                         │
-│   • Readings                         │
-│   • Videos                           │
-│   Chronological, minimal structure   │
+│   • Lectures                        │
+│   • Readings                        │
+│   • Videos                          │
+│   Chronological, minimal structure  │
 └──────────────┬──────────────────────┘
                │
                │ Week accumulates...
@@ -339,18 +339,18 @@ SUNDAY/MONDAY  ↓
 │   YES → Jupyter | NO → Cornell      │
 └──────────────┬──────────────────────┘
                │
-        ┌──────┴──────┐
-        ↓             ↓
-┌─────────────┐  ┌──────────────┐
-│  3A. JUPYTER│  │ 3B. CORNELL  │
-│  (20-30 min)│  │ (15-20 min)  │
-│  • Template │  │ • Cues column│
-│  • Examples │  │ • Notes      │
-│  • Practice │  │ • Summary    │
-└──────┬──────┘  └──────┬───────┘
-       │                │
-       └────────┬───────┘
-                ↓
+        ┌──────┴──────────────┐
+        ↓                     ↓
+┌─────────────┐        ┌──────────────┐
+│  3A. JUPYTER│        │ 3B. CORNELL  │
+│  (20-30 min)│        │ (15-20 min)  │
+│  • Template │        │ • Cues column│
+│  • Examples │        │ • Notes      │
+│  • Practice │        │ • Summary    │
+└──────┬──────┘        └──────┬───────┘
+       │                      │
+       └───────┬──────────────┘
+               ↓
 ┌─────────────────────────────────────┐
 │   4. TASK SWEEP (5 min)             │
 │   □ Scan for □ and !                │
@@ -375,15 +375,15 @@ SUNDAY/MONDAY  ↓
 │   git push origin main              │
 └─────────────────────────────────────┘
                ↓
-        ┌──────┴──────┐
-        ↓             ↓
-┌──────────────┐  ┌──────────────┐
-│ B5 CORNELL   │  │ JUPYTER      │
-│ Physical ref │  │ Digital code │
-│              │  │              │
-│ + DOCS/      │  │ + GITHUB     │
-│ Knowledge    │  │ Portfolio    │
-└──────────────┘  └──────────────┘
+        ┌──────┴─────────────┐
+        ↓                    ↓
+┌──────────────┐       ┌──────────────┐
+│ B5 CORNELL   │       │ JUPYTER      │
+│ Physical ref │       │ Digital code │
+│              │       │              │
+│ + DOCS/      │       │ + GITHUB     │
+│ Knowledge    │       │ Portfolio    │
+└──────────────┘       └──────────────┘
 ```
 
 ---
@@ -410,16 +410,18 @@ SUNDAY/MONDAY  ↓
 
 ### "I can't decide Jupyter vs Cornell"
 
-**Default to Jupyter**
+**Default to Cornell → Jupyter**
+- Cornell will help as first draft to organize thoughts
 - Can always print to PDF later if needed
 - Searchable and shareable
-- Easier to update
+- Can update Juyter after the fact
 
 ### "My raw notes are illegible"
 
 **That's normal!**
 - Raw capture is for you during capture
 - Illegible parts remind you to write clearer
+- Take advantage to rewrite in a calmer fashion
 - Processing while it's fresh solves this
 
 ### "What if I miss a week?"
