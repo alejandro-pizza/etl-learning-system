@@ -17,12 +17,12 @@ This system addresses common challenges in graduate education:
 
 ## System Overview
 ```
-EXTRACT (Capture)          TRANSFORM (Process)         LOAD (Store)
-─────────────────          ───────────────────         ────────────
-Raw notebook      →        Weekly sessions      →      Refined notes
-- Chronological            • 60-90 minutes             • Cornell method
-- Minimal structure        • Format decisions          • Jupyter notebooks
-- Zero friction            • Refinement                • Knowledge base
+EXTRACT (Capture)          TRANSFORM (Process)        LOAD (Store)
+───────────────────        ───────────────────        ───────────────────
+Raw notebook          →    Weekly sessions       →    Refined notes
+- Chronological            • 60-90 minutes            • Cornell method
+- Minimal structure        • Format decisions         • Jupyter notebooks
+- Zero friction            • Refinement               • Knowledge base
 ```
 
 ### The Three Stages
