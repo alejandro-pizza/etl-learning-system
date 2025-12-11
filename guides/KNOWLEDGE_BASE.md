@@ -28,17 +28,17 @@ The knowledge base is your **permanent reference library** - a searchable, cross
 ## Directory Structure
 ```
 docs/
-├── README.md                    # Index/navigation
-├── courses/                     # Course-specific pages
+├── README.md                        # Index/navigation
+├── courses/                         # Course-specific pages
 │   ├── MLOps.md
 │   ├── Modern-Data-Architectures.md
 │   ├── Statistics.md
 │   └── [other-courses].md
-├── topics/                      # Cross-course concepts
+├── topics/                          # Cross-course concepts
 │   ├── Data-Engineering.md
 │   ├── Machine-Learning.md
 │   └── Statistics-Probability.md
-└── tools/                       # Tech stack references
+└── tools/                           # Tech stack references
     ├── Docker.md
     ├── Python.md
     ├── SQL.md
