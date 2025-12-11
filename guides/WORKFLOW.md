@@ -31,11 +31,13 @@ SYMBOLS:
 
 HEADER FORMAT:
 [DATE] | [TYPE] | [SOURCE]
+
+After processing: Cross out date
 ```
 
 ### Capturing Notes
 
-**Every lecture, reading, video, etc.:**
+**Every lecture, reading session, video, etc.:**
 
 1. Write date header at top of page
 2. Capture chronologically as content flows
@@ -45,15 +47,15 @@ HEADER FORMAT:
 
 **Example:**
 ```
-2024-12-14 | LECTURE | MLOps - Docker
-───────────────────────────────────────
+2024-12-14 | LECTURE | MLOps - Docker Basics
+───────────────────────────────────────────────
 - Docker containers vs VMs
 - Containers share host kernel
 □ Install Docker on laptop
-? How does networking work?
-* Key command: docker run -d
+? How does networking work between containers
+* Key command: docker run -d -p 8000:8000
 > docker build -t myapp .
-! Assignment due Friday
+! Assignment due Friday - containerize ML model
 ```
 
 ### Rules for Raw Capture
@@ -76,27 +78,27 @@ HEADER FORMAT:
 
 ## TRANSFORM: Processing Session (Sunday/Monday)
 
-### Time Budget: 60-90 minutes
+### Total Time: 60-90 minutes
 
 ---
 
-### Step 1: Scan (5 minutes)
+### Step 1: Scan Raw Notebook (5 minutes)
 
 **Actions:**
 1. Flip through the week's raw notes
 2. Use sticky tabs to mark school-related pages
-3. Note which topics appear
+3. Identify what needs processing
 
 **Mental checklist:**
-- What courses did I cover?
+- Which topics did I cover?
 - Which pages have substantial content?
 - Any urgent tasks or deadlines?
 
 **Example marking:**
 - Page 12: MLOps Docker lecture ← sticky tab
-- Page 15: MLOps CI/CD reading ← sticky tab
-- Page 18: Random home organization ideas ← skip
-- Page 20: MDA data lakes ← sticky tab
+- Page 15: MLOps CI/CD reading ← sticky tab  
+- Page 18: Random thoughts about home organization ← skip for now
+- Page 20: MDA data lakes lecture ← sticky tab
 
 ---
 
@@ -115,7 +117,7 @@ Can I write code or execute this concept?
 
 | Topic | Format | Why |
 |-------|--------|-----|
-| Docker commands | Jupyter | Executable code |
+| Docker commands & examples | Jupyter | Executable code |
 | Docker architecture theory | Cornell | Conceptual |
 | Python data pipeline | Jupyter | Code examples |
 | Database normalization | Cornell | Theory/diagrams |
@@ -207,7 +209,7 @@ See [Physical Notes Guide](PHYSICAL_NOTES.md) for details.
 Go to each processed page and draw a line through the date:
 ```
 2024-12-14 | LECTURE | MLOps - Docker  ← Cross out this line
-───────────────────────────────────────
+───────────────────────────────────────────────
 ```
 
 Visual indicator that you're done with this page.
@@ -312,6 +314,80 @@ See [Git Workflow Guide](GIT_WORKFLOW.md) for details.
 
 ---
 
+## Complete Workflow Diagram
+```
+MONDAY-FRIDAY (Extract)
+┌─────────────────────────────────────┐
+│   RAW CAPTURE (A5 Notebook)         │
+│   • Lectures                         │
+│   • Readings                         │
+│   • Videos                           │
+│   Chronological, minimal structure   │
+└──────────────┬──────────────────────┘
+               │
+               │ Week accumulates...
+               │
+SUNDAY/MONDAY  ↓
+┌─────────────────────────────────────┐
+│   1. SCAN (5 min)                   │
+│   □ Mark school pages with tabs     │
+└──────────────┬──────────────────────┘
+               ↓
+┌─────────────────────────────────────┐
+│   2. DECIDE (30 sec each)           │
+│   Can I code it?                    │
+│   YES → Jupyter | NO → Cornell      │
+└──────────────┬──────────────────────┘
+               │
+        ┌──────┴──────┐
+        ↓             ↓
+┌─────────────┐  ┌──────────────┐
+│  3A. JUPYTER│  │ 3B. CORNELL  │
+│  (20-30 min)│  │ (15-20 min)  │
+│  • Template │  │ • Cues column│
+│  • Examples │  │ • Notes      │
+│  • Practice │  │ • Summary    │
+└──────┬──────┘  └──────┬───────┘
+       │                │
+       └────────┬───────┘
+                ↓
+┌─────────────────────────────────────┐
+│   4. TASK SWEEP (5 min)             │
+│   □ Scan for □ and !                │
+└──────────────┬──────────────────────┘
+               ↓
+┌─────────────────────────────────────┐
+│   5. MARK PROCESSED (2 min)         │
+│   Cross out dates in raw notebook   │
+└──────────────┬──────────────────────┘
+               ↓
+┌─────────────────────────────────────┐
+│   6. UPDATE KNOWLEDGE BASE (5-10min)│
+│   • Course pages                    │
+│   • Tool references                 │
+│   • Resources                       │
+└──────────────┬──────────────────────┘
+               ↓
+┌─────────────────────────────────────┐
+│   7. COMMIT & PUSH (3 min)          │
+│   git add .                         │
+│   git commit -m "Week X: topics"    │
+│   git push origin main              │
+└─────────────────────────────────────┘
+               ↓
+        ┌──────┴──────┐
+        ↓             ↓
+┌──────────────┐  ┌──────────────┐
+│ B5 CORNELL   │  │ JUPYTER      │
+│ Physical ref │  │ Digital code │
+│              │  │              │
+│ + DOCS/      │  │ + GITHUB     │
+│ Knowledge    │  │ Portfolio    │
+└──────────────┘  └──────────────┘
+```
+
+---
+
 ## Troubleshooting
 
 ### "I don't have 90 minutes on Sunday"
@@ -346,15 +422,31 @@ See [Git Workflow Guide](GIT_WORKFLOW.md) for details.
 - Illegible parts remind you to write clearer
 - Processing while it's fresh solves this
 
+### "What if I miss a week?"
+
+**No problem:**
+- System degrades gracefully
+- Prioritize most recent/important notes
+- Older notes = lower priority (or skip)
+- Don't try to catch up on everything
+- Resume weekly processing next week
+
+**Better to process:**
+- 3 pages perfectly than
+- 15 pages poorly
+
 ---
 
 ## Next Steps
 
 1. Read [Physical Notes Guide](PHYSICAL_NOTES.md)
 2. Read [Digital Notes Guide](DIGITAL_NOTES.md)
-3. Set up your first processing session
-4. Try with one week of notes
-5. Adjust based on what works
+3. Read [Knowledge Base Guide](KNOWLEDGE_BASE.md)
+4. Read [Git Workflow Guide](GIT_WORKFLOW.md)
+5. Read [ADHD Strategies](ADHD_STRATEGIES.md) if applicable
+6. Set up your first processing session
+7. Try with one week of notes
+8. Adjust based on what works
 
 ---
 
