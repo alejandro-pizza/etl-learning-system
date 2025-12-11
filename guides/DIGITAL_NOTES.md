@@ -24,12 +24,12 @@ Complete guide for Jupyter notebooks and digital knowledge management.
 ### Integration with Physical Notes
 ```
 Cornell Notebook        Jupyter Notebook
-(Concepts)             (Implementation)
-────────────           ────────────────
-What is algorithm? →   Code implementing it
-Theory/math        →   Working examples
-Comparisons        →   Performance tests
-When to use?       →   Use case demos
+(Concepts)              (Implementation)
+──────────────────      ────────────────────
+What is algorithm?  →   Code implementing it
+Theory/math         →   Working examples
+Comparisons         →   Performance tests
+When to use?        →   Use case demos
 ```
 
 **Cross-reference them:**
