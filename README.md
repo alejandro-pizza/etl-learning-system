@@ -1,6 +1,6 @@
 # ETL Learning System
 
-> A comprehensive note-taking and knowledge management system designed for graduate students, particularly those with ADHD. Based on the Extract-Transform-Load (ETL) data pipeline metaphor.
+> A comprehensive note-taking and knowledge management system designed for left handed graduate students, particularly those with ADHD. Based on the Extract-Transform-Load (ETL) data pipeline metaphor.
 
 ## Philosophy
 
@@ -9,7 +9,7 @@ This system addresses common challenges in graduate education:
 - **Scattered notes** that are never reviewed
 - **Decision paralysis** about where to write things
 - **Inconsistency** in note-taking methods
-- **Poor retention** of material
+- **Poor retention** of material, important dates, and tasks
 
 **Solution:** A streamlined, three-stage workflow that separates capture from processing, minimizes decisions, and creates both physical and digital reference materials.
 
@@ -49,8 +49,9 @@ Raw notebook      →        Weekly sessions      →      Refined notes
 ## Quick Start
 
 ### Prerequisites
-- One A5 notebook (raw capture)
-- One B5 notebook (refined notes)
+- One notebook (raw capture) *A5 preferred*
+- One notebook (refined notes) *B5 preferred*
+- One nice pen
 - GitHub account
 - Jupyter installed (`pip install jupyter`)
 
@@ -95,7 +96,9 @@ etl-learning-system/
 │   ├── DIGITAL_NOTES.md                     # Jupyter notebook guide
 │   ├── KNOWLEDGE_BASE.md                    # Docs structure guide
 │   ├── GIT_WORKFLOW.md                      # Version control guide
-│   └── ADHD_STRATEGIES.md                   # ADHD-specific tips
+│   ├── ADHD_STRATEGIES.md                   # ADHD-specific tips
+│   ├── WHY_THIS_WORKS.md                    # Support for this learning concept
+│   └── VISUAL_DIAGRAMS.md                   # Pictures help brain understand
 ├── examples/
 │   ├── sample_raw_notes.jpg                 # Photo of raw capture
 │   ├── sample_cornell_notes.jpg             # Photo of Cornell notes
@@ -121,18 +124,18 @@ etl-learning-system/
 ## Key Features
 
 ### For ADHD Brains
-- **Single capture point** - no decisions about "which notebook"
-- **Simple symbols** - consistent, minimal choices
+- **Single capture point** - one funnel, no decisions about "which notebook"
+- **Simple symbols** - consistent, intuitive, minimal choices
 - **Chronological only** - no complex categorization
 - **Processing ritual** - structured weekly session
-- **Visual completion** - cross out processed pages
+- **Visual completion** - cross out processed pages/sections
 
 ### For Learning
 - **Writing by hand** - better retention during capture
 - **Spaced repetition** - weekly processing reinforces learning
 - **Multiple formats** - concepts in Cornell, code in Jupyter
 - **Knowledge base** - searchable reference for future use
-- **Version control** - track your learning over time
+- **Version control** - track your learning development over time
 
 ### For Technical Content
 - **Jupyter templates** - structured code documentation
@@ -142,7 +145,7 @@ etl-learning-system/
 
 ---
 
-## 📖 Documentation
+## Documentation
 
 ### Guides
 - [**Complete Workflow**](guides/WORKFLOW.md) - Start here for full system overview
@@ -151,6 +154,8 @@ etl-learning-system/
 - [**Knowledge Base**](guides/KNOWLEDGE_BASE.md) - Documentation structure
 - [**Git Workflow**](guides/GIT_WORKFLOW.md) - Version control for learning
 - [**ADHD Strategies**](guides/ADHD_STRATEGIES.md) - Managing decision paralysis
+- [**Why This Works**](guides/WHY_THIS_WORKS.md) - Dig into the conceptual logic
+- [**Visual Diagrams**](guides/VISUAL_DIAGRAMS.md) - Visualizations of the above
 
 ### Templates
 - [Jupyter Notebook Template](templates/notebook/notebook_template.ipynb)
@@ -164,10 +169,10 @@ etl-learning-system/
 
 This system is designed to be adapted. Common modifications:
 
-**Symbols:** Adjust the symbol set to your needs
+**Symbols:** Adjust the symbol set to meet your needs +|-
 **Timing:** Process on different days if Sunday/Monday doesn't work
 **Tools:** Use VS Code instead of Jupyter, Obsidian instead of markdown
-**Scope:** Start with just school notes, expand to all areas later
+**Scope:** Start with just school notes, expand to other life areas later
 
 ---
 
