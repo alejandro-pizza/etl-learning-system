@@ -2,7 +2,7 @@
 
 > A comprehensive note-taking and knowledge management system designed for graduate students, particularly those with ADHD. Based on the Extract-Transform-Load (ETL) data pipeline metaphor.
 
-## 🎯 Philosophy
+## Philosophy
 
 This system addresses common challenges in graduate education:
 - **Information overload** during lectures and readings
@@ -15,7 +15,7 @@ This system addresses common challenges in graduate education:
 
 ---
 
-## 📚 System Overview
+## System Overview
 ```
 EXTRACT (Capture)          TRANSFORM (Process)         LOAD (Store)
 ─────────────────          ───────────────────         ────────────
@@ -46,7 +46,7 @@ Raw notebook      →        Weekly sessions      →      Refined notes
 
 ---
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 - One A5 notebook (raw capture)
@@ -77,7 +77,7 @@ Raw notebook      →        Weekly sessions      →      Refined notes
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 ```
 etl-learning-system/
 ├── templates/
@@ -108,7 +108,7 @@ etl-learning-system/
 
 ---
 
-## 🎓 Who This Is For
+## Who This Is For
 
 - Graduate students managing multiple courses
 - People with ADHD who struggle with organization
@@ -118,7 +118,7 @@ etl-learning-system/
 
 ---
 
-## 💡 Key Features
+## Key Features
 
 ### For ADHD Brains
 - **Single capture point** - no decisions about "which notebook"
@@ -160,7 +160,7 @@ etl-learning-system/
 
 ---
 
-## 🛠️ Customization
+## Customization
 
 This system is designed to be adapted. Common modifications:
 
@@ -171,7 +171,7 @@ This system is designed to be adapted. Common modifications:
 
 ---
 
-## 🤝 Contributing
+## Contributing
 
 Have improvements or adaptations? Contributions welcome!
 
@@ -182,13 +182,13 @@ Have improvements or adaptations? Contributions welcome!
 
 ---
 
-## 📝 License
+## License
 
 MIT License - feel free to use and adapt for your own learning journey.
 
 ---
 
-## 🙏 Acknowledgments
+## Acknowledgments
 
 This system combines proven note-taking methods:
 - **Cornell Method** (Walter Pauk, 1940s)
@@ -200,7 +200,7 @@ Designed specifically for graduate students with ADHD, tested in a Data Science 
 
 ---
 
-## 📧 Questions?
+## Questions?
 
 Open an issue or start a discussion. Happy to help you adapt this system!
 
