@@ -1,6 +1,6 @@
 # Cornell Method Template
 
-Use this format in your B5 refined notebook.
+Use this format in your larger format refined notebook.
 
 ## Page Structure
 ```
